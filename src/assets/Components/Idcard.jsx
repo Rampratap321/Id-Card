@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 // import MYimage from "../assets/Myimage";
 import './Style.css';
 
-function Twoway(){
+function Idcard(){
 
     const[name, setName] = useState("");
     const[ID, setID] = useState("");
@@ -85,5 +85,6 @@ function Twoway(){
     )
 }
 
-export default Twoway;
+export default Idcard;
+
 
